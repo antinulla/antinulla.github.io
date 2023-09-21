@@ -1,14 +1,262 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title> Antonella Maselli, PhD </title>
-    </head>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<body>
+  
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8LLYPXWMQV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8LLYPXWMQV');
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	
+
+    <title>Antonella Maselli</title>
+    <link rel="stylesheet" type="text/css" href="./AntonellaMaselli_files/style.css">
+  </head>
+  
+  <body>
+
+<script>
+function FilterFunction(filter) {
+  // Declare variables
+ 
+	  var input,  p, list;
+	  input = document.getElementById('fullpublications');
+	 
+	  
+	  console.log(filter);
+	  // Loop through all items, and hide those who don't match the search query
+	  list = input.getElementsByClassName("pub")
+	  
+	  for (i = 0; i < list.length; i++) {
+		p = list[i].childNodes[0].nextSibling;
+		//console.log(p.classList);
+		if( p.classList.contains(filter) || filter=='')
+		{
+			//console.log(p);
+			p.style.display = "";
+			p.style.height = "80px";
+		}else {
+			p.style.display = "none";
+			//p.children[2].style.height = "0px";
+			p.style.height = "0px";
+		}
+	}
+		
+		
+}
+</script>
+    
+    <div id="dhead" class="container">
+      <div class="row">
+        <div id="dpic">
+          <img src="./AntonellaMaselli_files/me.jpg" class="ppic">
+        </div>
+        <div id="ddesc">
+          <h1>Antonella Maselli</h1>
+          <h2>curiours about how things and minds works</h2>
+          <div id="dico">
 
 
-<h1>Hello World</h1>
-<p>I am researcher at the Istitute of Cognitive Sciences and Technology in Rome, working at the intersection of Cognitive Sciences, Motor Control and Virtual Reality.  </p>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+            
+            <a target="_blank" href="https://github.com/antinulla" target="_blank"><img src="./AntonellaMaselli_files/github-brands.svg" class="iico"/></a>
+            <a target="_blank" href="https://scholar.google.com/citations?user=dfOPu20AAAAJ&hl=en" target="_blank"><img src="./AntonellaMaselli_files/google-scholar.svg" class="iico"/></a>
+            <img src="./AntonellaMaselli_files/envelope-solid.svg" style="cursor: pointer;" class="iico" id="iemail" title="click to reveal"/>
+          </div>
+          <div id="demail"></div> <!-- will reveal email -->
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+
+    <div id="history" class="container">
+
+
+ <div class="entry row">
+        <div class="timespan">
+        2019-Present
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="./AntonellaMaselli_files/cnr_log.png">
+        </div>
+        <div class="desc">
+          I am a senior researcher at the <a target="_blank" href="https://www.https://www.istc.cnr.it/" target="_blank">ISTC</a> (Istitute of Cognitive Sciences and Technologies) where I conduct studies at the intersection of Cognitive Science, Motor Control and Self-Perception and Human Computer Interaction. 
+          In my work I use motion capture, physiological assessmente and virtual reality to conduct behavioral experiments in healthy humans and test state-of-the-art VR technology for rehabilitation.  
+          I actively work at the devolpment of new algorithms for the analysis of complex behavioral data and at the implementation of computational models for cognitive processes and motor control.
+          <br/><br/>
+        </div>
+		
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">
+          2019
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="./AntonellaMaselli_files/msft_logo_crop.jpg">
+        </div>
+        <div class="desc">
+        Visiting Researcher in the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/epic/" target="_blank">EPIC</a> (Extended Perception Interaction and Cognition) team and collaborated with Soundscape team at Microsoft Research in Redmond (WA) 
+       <br/><br/>
+        </div>		
+			
+			
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">
+          2015 - 2019
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="./AntonellaMaselli_files/FSL_Logo.png">
+        </div>
+        <div class="desc">
+          Researcher in the Laboratory of Neuromotor Physiology, as part of the CoGIMON project, studying the perceptual and sensorimotor mechanisms involved in nonverbal interpersonal communication. 
+		  <br/><br/>
+        </div>
+		
+      </div>
+
+     
+      <div class="entry row">
+        <div class="timespan">
+          2010 - 2015
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="./AntonellaMaselli_files/ub_logo.jpg" >
+        </div>
+        <div class="desc">
+            Postdoctoral Researcher in the EVENT Lab at the University of Barcelona
+		  <br/><br/>
+        </div>
+
+      </div>
+	  
+     
+      <div class="entry row">
+        <div class="timespan">
+          2015 - 2019
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="./AntonellaMaselli_files/Unifi_logo.jpg.png">
+        </div>
+        <div class="desc">
+            Postdoctoral Researcher at the <a target="_blank" href="https://www.https://www.arcetri.inaf.it/en/" target="_blank">Arcetri Astronomical Observatory</a>.
+		  <br/><br/>
+        </div>
+     
+    </div>
+	  
+     
+    <div class="entry row">
+      <div class="timespan">
+        2055 - 2009
+      </div>
+      <div class="ico">
+        <div class="entry-dot"></div>
+        <img src="./AntonellaMaselli_files/maxPlanck_logo.png">
+      </div>
+      <div class="desc">
+          Postdoctoral Researcher at the <a target="_blank" href="https://www.mpa-garching.mpg.de/" target="_blank">Max Plank Institute for Astrophysics</a>.
+        <br/><br/>
+      </div>
+
+
+      <div class="entry row">
+        <div class="timespan">
+          2003 - 2005
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="./AntonellaMAselli_files/Unifi_logo.jpg" >
+        </div>
+        <div class="desc">
+          MSc in Physics at the University of Florence (Italy). 110/100 Cum Laude
+        </div>
+      </div>
+    </div>
+
+
+	
+</div>
+
+<div style=" padding-top: 1px; margin-top: 10px;">
+    <div class="container" style="background-color: #fff;">
+      <div class="ctitle"> bio</div>
+      <div>
+
+
+I am an experieced researcher currently active in the field of Cognitive Neuroscience. My research focuses on understanding the grounded principles that allows living (and artificial)
+agents to perceive and interact with rich and dynamic environments. I do this by designing and running experimental studies, and by developing analysis and implementing normative models.  
+In particular, I am interested in how we agents builds up the perception of our own body and control our movement to interact with object and other animate agents. 
+I am also interested in how we humans interact with new technologies and how this shapes our minds and our behavior. 
+<br/> <br/> 
+Once upon a time was a computational cosmologist studying the interaction of radiation and matter in the early universe and its impact on the formation of galaxies and stars. 
+<br/> <br/>
+
+
+</div>
+      
+    </div>
+
+<div style=" padding-top: 1px; margin-top: 10px;">
+    <div class="container" style="background-color: #fff;">
+      <div class="ctitle"> research interests</div>
+      <div>
+		Over the years my work has evolved in three ways&gt; (1) to continue exploring the wonders of VR and spatial computing; (2) to create new devices and explore what these technologies do to our perceptual systems, most prominent is my work exploring new haptic devices and spatial audio; and (3) to understand how people behave at large when presented with technology. 
+		<br/><br/>
+		My interest on impacting larger audiences made me pivot from academia into industrial laboratories and after having been at the MIT, Tsinghua, UB and UCL; I created and led an immersive tech lab at Airbus Group; joined the Startup Traity working on the creation of reputation standards for a user base of 4.5M. From 2016-2022 I was with Microsoft Research. Since 2022 I am a Research Scientist at Google.
+		
+
+      
+</div>
+
+<div style="background-color: #eee; padding-top: 1px; margin-top: 10px;"><br/>
+</div>
+    <div id="pet-projects" class="container" >
+	<div style="background-color: #eee; padding-left: 10px;">
+      <div class="ctitle">lines of research</div>
+		<div style="float: left; padding-right: 10px  ;" width="375"></div> <div style="padding: 10px 10px 10px 10px ;">We are moving from having the content inside the screen to having the user inside the content. This paradigm shift together with the increasing number of connected and digital content and AI, opens new avenues of interaction: new needs for devices, better auditory affordances, new forms of representation (in occasions via avatars), and new ways to move around the digital content.</div><br/>
+		</div>
+		<br/>
+      
+	  
+	<div class="project" style="background-color: #fff;">
+	  <div style="background-color: #eee; padding-left: 10px;">
+		<b>Avatars</b><br/>
+		<div class="pico" style="float: right;">
+        <div class="pdesc" > In Virtual Reality and spatial computing simulations, humans are often represented by avatars. I have explored how users interact with them in and out VR, how they can be animated, and their consequences. I have also created first person substitutions inside VR, by which avatars are embodied by participants. To advance this field I have proposed new theories (such as the Self-Avatar Follower Effect or the theory of Illusions in Virtual Reality), metrics and questionnaires.
+		<br/><br/>
+		In an effort to democratize the access and use of avatars I have also released as open source various libraries and tools such as the Microsoft Rocketbox library of avatars and the Movebox a toolbox to animate the Microsoft Rocketbox avatars. 
+		<br/><br/><em>Featured work:</em>
+		<br/></div></div>
+		
+		
+      </div>
+
+    <script type="text/javascript">
+      var e_is_shown = false;
+      document.getElementById('iemail').addEventListener("click", function(){
+        let demail = document.getElementById('demail');
+        demail.innerHTML = 'margonzalezfranco' + ' _at_ ' + 'gmail' + '.com';
+        demail.style.opacity = e_is_shown ? 0 : 1;
+        e_is_shown = !e_is_shown;
+      })
+    </script>
+  
+</body></html>s
