@@ -30,7 +30,7 @@ body {
     margin-top: 20px;
 }
 #dpic {
-    grid-column: span 6;
+    grid-column: span 4;
     text-align: right;
 }
 #ddesc {
